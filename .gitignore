@@ -1,0 +1,46 @@
+# Local planning / agent scratch
+docs/
+.claudian/
+.claude/settings.local.json
+
+# Obsidian local state
+.obsidian/
+.trash/
+
+# Python cache / test output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Node / frontend caches
+node_modules/
+.npm/
+.pnpm-store/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+~$*
+
+# Local environment files
+.env
+.env.*
+!.env.example

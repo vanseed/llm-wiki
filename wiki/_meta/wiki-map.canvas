@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"home","type":"file","file":"Home.md","x":-420,"y":-40,"width":240,"height":80},
+		{"id":"index","type":"file","file":"wiki/index.md","x":-80,"y":-160,"width":240,"height":80},
+		{"id":"dashboard","type":"file","file":"wiki/_meta/dashboard.md","x":-80,"y":80,"width":240,"height":80},
+		{"id":"raw","type":"text","text":"raw/\\n不可变事实层\\n放入原始资料","x":260,"y":-320,"width":260,"height":120},
+		{"id":"translated","type":"text","text":"translated/\\n完整中文译文派生层\\n外文资料按需生成","x":260,"y":-160,"width":280,"height":120},
+		{"id":"wiki","type":"text","text":"wiki/\\n知识编译输出层\\nsource / entity / concept / synthesis","x":260,"y":20,"width":300,"height":140},
+		{"id":"meta","type":"text","text":"wiki/_meta/\\nmanifest / translation-manifest / health / graph","x":260,"y":240,"width":300,"height":120},
+		{"id":"tools","type":"file","file":"tools/README.md","x":-420,"y":200,"width":240,"height":80},
+		{"id":"guide","type":"file","file":"AGENT_GUIDE.md","x":-420,"y":-280,"width":240,"height":80},
+		{"id":"workflow","type":"file","file":"wiki/_meta/workflows.md","x":-80,"y":300,"width":240,"height":80}
+	],
+	"edges":[
+		{"id":"edge-home-index","fromNode":"home","fromSide":"right","toNode":"index","toSide":"left"},
+		{"id":"edge-home-dashboard","fromNode":"home","fromSide":"right","toNode":"dashboard","toSide":"left"},
+		{"id":"edge-guide-raw","fromNode":"guide","fromSide":"right","toNode":"raw","toSide":"left"},
+		{"id":"edge-raw-wiki","fromNode":"raw","fromSide":"bottom","toNode":"wiki","toSide":"top"},
+		{"id":"edge-raw-translated","fromNode":"raw","fromSide":"bottom","toNode":"translated","toSide":"top"},
+		{"id":"edge-translated-wiki","fromNode":"translated","fromSide":"bottom","toNode":"wiki","toSide":"top"},
+		{"id":"edge-wiki-meta","fromNode":"wiki","fromSide":"bottom","toNode":"meta","toSide":"top"},
+		{"id":"edge-dashboard-tools","fromNode":"dashboard","fromSide":"left","toNode":"tools","toSide":"right"},
+		{"id":"edge-dashboard-workflow","fromNode":"dashboard","fromSide":"bottom","toNode":"workflow","toSide":"top"}
+	]
+}

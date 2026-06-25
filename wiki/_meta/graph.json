@@ -1,0 +1,621 @@
+{
+  "generated_at": "2026-06-25",
+  "nodes": [
+    {
+      "id": "Andrej_Karpathy",
+      "path": "wiki/entities/Andrej_Karpathy.md",
+      "type": "entity",
+      "exists": true
+    },
+    {
+      "id": "Claude_Code",
+      "path": "wiki/entities/Claude_Code.md",
+      "type": "entity",
+      "exists": true
+    },
+    {
+      "id": "Ingest_Workflow",
+      "path": "wiki/concepts/Ingest_Workflow.md",
+      "type": "concept",
+      "exists": true
+    },
+    {
+      "id": "LLM_Agent",
+      "path": "wiki/entities/LLM_Agent.md",
+      "type": "entity",
+      "exists": true
+    },
+    {
+      "id": "LLM_Wiki",
+      "path": "wiki/concepts/LLM_Wiki.md",
+      "type": "concept",
+      "exists": true
+    },
+    {
+      "id": "Obsidian",
+      "path": "wiki/entities/Obsidian.md",
+      "type": "entity",
+      "exists": true
+    },
+    {
+      "id": "OpenAI_Codex",
+      "path": "wiki/entities/OpenAI_Codex.md",
+      "type": "entity",
+      "exists": true
+    },
+    {
+      "id": "Persistent_Knowledge_Base",
+      "path": "wiki/concepts/Persistent_Knowledge_Base.md",
+      "type": "concept",
+      "exists": true
+    },
+    {
+      "id": "Query_Workflow",
+      "path": "wiki/concepts/Query_Workflow.md",
+      "type": "concept",
+      "exists": true
+    },
+    {
+      "id": "Raw_Source_Layer",
+      "path": "wiki/concepts/Raw_Source_Layer.md",
+      "type": "concept",
+      "exists": true
+    },
+    {
+      "id": "Retrieval_Augmented_Generation",
+      "path": "wiki/concepts/Retrieval_Augmented_Generation.md",
+      "type": "concept",
+      "exists": true
+    },
+    {
+      "id": "Wiki_Lint",
+      "path": "wiki/concepts/Wiki_Lint.md",
+      "type": "concept",
+      "exists": true
+    },
+    {
+      "id": "Wiki_Schema",
+      "path": "wiki/concepts/Wiki_Schema.md",
+      "type": "concept",
+      "exists": true
+    },
+    {
+      "id": "摘要-llm-wiki",
+      "path": "wiki/sources/摘要-llm-wiki.md",
+      "type": "source",
+      "exists": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "Andrej_Karpathy",
+      "target": "LLM_Agent",
+      "target_exists": true
+    },
+    {
+      "source": "Andrej_Karpathy",
+      "target": "LLM_Wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Andrej_Karpathy",
+      "target": "Obsidian",
+      "target_exists": true
+    },
+    {
+      "source": "Andrej_Karpathy",
+      "target": "Persistent_Knowledge_Base",
+      "target_exists": true
+    },
+    {
+      "source": "Andrej_Karpathy",
+      "target": "摘要-llm-wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Claude_Code",
+      "target": "Ingest_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Claude_Code",
+      "target": "LLM_Agent",
+      "target_exists": true
+    },
+    {
+      "source": "Claude_Code",
+      "target": "LLM_Wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Claude_Code",
+      "target": "Obsidian",
+      "target_exists": true
+    },
+    {
+      "source": "Claude_Code",
+      "target": "OpenAI_Codex",
+      "target_exists": true
+    },
+    {
+      "source": "Claude_Code",
+      "target": "Query_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Claude_Code",
+      "target": "Wiki_Lint",
+      "target_exists": true
+    },
+    {
+      "source": "Claude_Code",
+      "target": "Wiki_Schema",
+      "target_exists": true
+    },
+    {
+      "source": "Claude_Code",
+      "target": "摘要-llm-wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Ingest_Workflow",
+      "target": "LLM_Agent",
+      "target_exists": true
+    },
+    {
+      "source": "Ingest_Workflow",
+      "target": "LLM_Wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Ingest_Workflow",
+      "target": "Obsidian",
+      "target_exists": true
+    },
+    {
+      "source": "Ingest_Workflow",
+      "target": "Persistent_Knowledge_Base",
+      "target_exists": true
+    },
+    {
+      "source": "Ingest_Workflow",
+      "target": "Query_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Ingest_Workflow",
+      "target": "Raw_Source_Layer",
+      "target_exists": true
+    },
+    {
+      "source": "Ingest_Workflow",
+      "target": "Wiki_Lint",
+      "target_exists": true
+    },
+    {
+      "source": "Ingest_Workflow",
+      "target": "Wiki_Schema",
+      "target_exists": true
+    },
+    {
+      "source": "Ingest_Workflow",
+      "target": "摘要-llm-wiki",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Agent",
+      "target": "Claude_Code",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Agent",
+      "target": "Ingest_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Agent",
+      "target": "LLM_Wiki",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Agent",
+      "target": "Obsidian",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Agent",
+      "target": "OpenAI_Codex",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Agent",
+      "target": "Query_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Agent",
+      "target": "Wiki_Lint",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Agent",
+      "target": "Wiki_Schema",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Agent",
+      "target": "摘要-llm-wiki",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Wiki",
+      "target": "Ingest_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Wiki",
+      "target": "LLM_Agent",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Wiki",
+      "target": "Obsidian",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Wiki",
+      "target": "Persistent_Knowledge_Base",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Wiki",
+      "target": "Query_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Wiki",
+      "target": "Raw_Source_Layer",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Wiki",
+      "target": "Retrieval_Augmented_Generation",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Wiki",
+      "target": "Wiki_Lint",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Wiki",
+      "target": "Wiki_Schema",
+      "target_exists": true
+    },
+    {
+      "source": "LLM_Wiki",
+      "target": "摘要-llm-wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Obsidian",
+      "target": "Ingest_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Obsidian",
+      "target": "LLM_Agent",
+      "target_exists": true
+    },
+    {
+      "source": "Obsidian",
+      "target": "LLM_Wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Obsidian",
+      "target": "Wiki_Lint",
+      "target_exists": true
+    },
+    {
+      "source": "Obsidian",
+      "target": "Wiki_Schema",
+      "target_exists": true
+    },
+    {
+      "source": "Obsidian",
+      "target": "摘要-llm-wiki",
+      "target_exists": true
+    },
+    {
+      "source": "OpenAI_Codex",
+      "target": "Claude_Code",
+      "target_exists": true
+    },
+    {
+      "source": "OpenAI_Codex",
+      "target": "Ingest_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "OpenAI_Codex",
+      "target": "LLM_Agent",
+      "target_exists": true
+    },
+    {
+      "source": "OpenAI_Codex",
+      "target": "LLM_Wiki",
+      "target_exists": true
+    },
+    {
+      "source": "OpenAI_Codex",
+      "target": "Wiki_Schema",
+      "target_exists": true
+    },
+    {
+      "source": "OpenAI_Codex",
+      "target": "摘要-llm-wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Persistent_Knowledge_Base",
+      "target": "Ingest_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Persistent_Knowledge_Base",
+      "target": "LLM_Wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Persistent_Knowledge_Base",
+      "target": "Query_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Persistent_Knowledge_Base",
+      "target": "Raw_Source_Layer",
+      "target_exists": true
+    },
+    {
+      "source": "Persistent_Knowledge_Base",
+      "target": "Retrieval_Augmented_Generation",
+      "target_exists": true
+    },
+    {
+      "source": "Persistent_Knowledge_Base",
+      "target": "Wiki_Lint",
+      "target_exists": true
+    },
+    {
+      "source": "Persistent_Knowledge_Base",
+      "target": "摘要-llm-wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Query_Workflow",
+      "target": "Ingest_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Query_Workflow",
+      "target": "LLM_Agent",
+      "target_exists": true
+    },
+    {
+      "source": "Query_Workflow",
+      "target": "LLM_Wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Query_Workflow",
+      "target": "Persistent_Knowledge_Base",
+      "target_exists": true
+    },
+    {
+      "source": "Query_Workflow",
+      "target": "Retrieval_Augmented_Generation",
+      "target_exists": true
+    },
+    {
+      "source": "Query_Workflow",
+      "target": "Wiki_Lint",
+      "target_exists": true
+    },
+    {
+      "source": "Query_Workflow",
+      "target": "摘要-llm-wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Raw_Source_Layer",
+      "target": "Ingest_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Raw_Source_Layer",
+      "target": "LLM_Agent",
+      "target_exists": true
+    },
+    {
+      "source": "Raw_Source_Layer",
+      "target": "LLM_Wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Raw_Source_Layer",
+      "target": "Persistent_Knowledge_Base",
+      "target_exists": true
+    },
+    {
+      "source": "Raw_Source_Layer",
+      "target": "Wiki_Schema",
+      "target_exists": true
+    },
+    {
+      "source": "Raw_Source_Layer",
+      "target": "摘要-llm-wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Retrieval_Augmented_Generation",
+      "target": "Ingest_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Retrieval_Augmented_Generation",
+      "target": "LLM_Wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Retrieval_Augmented_Generation",
+      "target": "Persistent_Knowledge_Base",
+      "target_exists": true
+    },
+    {
+      "source": "Retrieval_Augmented_Generation",
+      "target": "Query_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Retrieval_Augmented_Generation",
+      "target": "摘要-llm-wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Lint",
+      "target": "Ingest_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Lint",
+      "target": "LLM_Agent",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Lint",
+      "target": "LLM_Wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Lint",
+      "target": "Persistent_Knowledge_Base",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Lint",
+      "target": "Query_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Lint",
+      "target": "Wiki_Schema",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Lint",
+      "target": "摘要-llm-wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Schema",
+      "target": "Ingest_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Schema",
+      "target": "LLM_Agent",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Schema",
+      "target": "LLM_Wiki",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Schema",
+      "target": "Query_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Schema",
+      "target": "Raw_Source_Layer",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Schema",
+      "target": "Wiki_Lint",
+      "target_exists": true
+    },
+    {
+      "source": "Wiki_Schema",
+      "target": "摘要-llm-wiki",
+      "target_exists": true
+    },
+    {
+      "source": "摘要-llm-wiki",
+      "target": "Andrej_Karpathy",
+      "target_exists": true
+    },
+    {
+      "source": "摘要-llm-wiki",
+      "target": "Claude_Code",
+      "target_exists": true
+    },
+    {
+      "source": "摘要-llm-wiki",
+      "target": "Ingest_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "摘要-llm-wiki",
+      "target": "LLM_Agent",
+      "target_exists": true
+    },
+    {
+      "source": "摘要-llm-wiki",
+      "target": "LLM_Wiki",
+      "target_exists": true
+    },
+    {
+      "source": "摘要-llm-wiki",
+      "target": "Obsidian",
+      "target_exists": true
+    },
+    {
+      "source": "摘要-llm-wiki",
+      "target": "OpenAI_Codex",
+      "target_exists": true
+    },
+    {
+      "source": "摘要-llm-wiki",
+      "target": "Persistent_Knowledge_Base",
+      "target_exists": true
+    },
+    {
+      "source": "摘要-llm-wiki",
+      "target": "Query_Workflow",
+      "target_exists": true
+    },
+    {
+      "source": "摘要-llm-wiki",
+      "target": "Raw_Source_Layer",
+      "target_exists": true
+    },
+    {
+      "source": "摘要-llm-wiki",
+      "target": "Retrieval_Augmented_Generation",
+      "target_exists": true
+    },
+    {
+      "source": "摘要-llm-wiki",
+      "target": "Wiki_Lint",
+      "target_exists": true
+    },
+    {
+      "source": "摘要-llm-wiki",
+      "target": "Wiki_Schema",
+      "target_exists": true
+    }
+  ]
+}

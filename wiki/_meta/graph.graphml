@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="path" for="node" attr.name="path" attr.type="string" />
+  <key id="type" for="node" attr.name="type" attr.type="string" />
+  <key id="exists" for="node" attr.name="exists" attr.type="boolean" />
+  <key id="target_exists" for="edge" attr.name="target_exists" attr.type="boolean" />
+  <graph id="G" edgedefault="directed">
+    <node id="Andrej_Karpathy">
+      <data key="path">wiki/entities/Andrej_Karpathy.md</data>
+      <data key="type">entity</data>
+      <data key="exists">true</data>
+    </node>
+    <node id="Claude_Code">
+      <data key="path">wiki/entities/Claude_Code.md</data>
+      <data key="type">entity</data>
+      <data key="exists">true</data>
+    </node>
+    <node id="Ingest_Workflow">
+      <data key="path">wiki/concepts/Ingest_Workflow.md</data>
+      <data key="type">concept</data>
+      <data key="exists">true</data>
+    </node>
+    <node id="LLM_Agent">
+      <data key="path">wiki/entities/LLM_Agent.md</data>
+      <data key="type">entity</data>
+      <data key="exists">true</data>
+    </node>
+    <node id="LLM_Wiki">
+      <data key="path">wiki/concepts/LLM_Wiki.md</data>
+      <data key="type">concept</data>
+      <data key="exists">true</data>
+    </node>
+    <node id="Obsidian">
+      <data key="path">wiki/entities/Obsidian.md</data>
+      <data key="type">entity</data>
+      <data key="exists">true</data>
+    </node>
+    <node id="OpenAI_Codex">
+      <data key="path">wiki/entities/OpenAI_Codex.md</data>
+      <data key="type">entity</data>
+      <data key="exists">true</data>
+    </node>
+    <node id="Persistent_Knowledge_Base">
+      <data key="path">wiki/concepts/Persistent_Knowledge_Base.md</data>
+      <data key="type">concept</data>
+      <data key="exists">true</data>
+    </node>
+    <node id="Query_Workflow">
+      <data key="path">wiki/concepts/Query_Workflow.md</data>
+      <data key="type">concept</data>
+      <data key="exists">true</data>
+    </node>
+    <node id="Raw_Source_Layer">
+      <data key="path">wiki/concepts/Raw_Source_Layer.md</data>
+      <data key="type">concept</data>
+      <data key="exists">true</data>
+    </node>
+    <node id="Retrieval_Augmented_Generation">
+      <data key="path">wiki/concepts/Retrieval_Augmented_Generation.md</data>
+      <data key="type">concept</data>
+      <data key="exists">true</data>
+    </node>
+    <node id="Wiki_Lint">
+      <data key="path">wiki/concepts/Wiki_Lint.md</data>
+      <data key="type">concept</data>
+      <data key="exists">true</data>
+    </node>
+    <node id="Wiki_Schema">
+      <data key="path">wiki/concepts/Wiki_Schema.md</data>
+      <data key="type">concept</data>
+      <data key="exists">true</data>
+    </node>
+    <node id="摘要-llm-wiki">
+      <data key="path">wiki/sources/摘要-llm-wiki.md</data>
+      <data key="type">source</data>
+      <data key="exists">true</data>
+    </node>
+    <edge source="Andrej_Karpathy" target="LLM_Agent">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Andrej_Karpathy" target="LLM_Wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Andrej_Karpathy" target="Obsidian">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Andrej_Karpathy" target="Persistent_Knowledge_Base">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Andrej_Karpathy" target="摘要-llm-wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Claude_Code" target="Ingest_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Claude_Code" target="LLM_Agent">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Claude_Code" target="LLM_Wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Claude_Code" target="Obsidian">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Claude_Code" target="OpenAI_Codex">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Claude_Code" target="Query_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Claude_Code" target="Wiki_Lint">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Claude_Code" target="Wiki_Schema">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Claude_Code" target="摘要-llm-wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Ingest_Workflow" target="LLM_Agent">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Ingest_Workflow" target="LLM_Wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Ingest_Workflow" target="Obsidian">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Ingest_Workflow" target="Persistent_Knowledge_Base">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Ingest_Workflow" target="Query_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Ingest_Workflow" target="Raw_Source_Layer">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Ingest_Workflow" target="Wiki_Lint">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Ingest_Workflow" target="Wiki_Schema">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Ingest_Workflow" target="摘要-llm-wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Agent" target="Claude_Code">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Agent" target="Ingest_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Agent" target="LLM_Wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Agent" target="Obsidian">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Agent" target="OpenAI_Codex">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Agent" target="Query_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Agent" target="Wiki_Lint">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Agent" target="Wiki_Schema">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Agent" target="摘要-llm-wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Wiki" target="Ingest_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Wiki" target="LLM_Agent">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Wiki" target="Obsidian">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Wiki" target="Persistent_Knowledge_Base">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Wiki" target="Query_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Wiki" target="Raw_Source_Layer">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Wiki" target="Retrieval_Augmented_Generation">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Wiki" target="Wiki_Lint">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Wiki" target="Wiki_Schema">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="LLM_Wiki" target="摘要-llm-wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Obsidian" target="Ingest_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Obsidian" target="LLM_Agent">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Obsidian" target="LLM_Wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Obsidian" target="Wiki_Lint">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Obsidian" target="Wiki_Schema">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Obsidian" target="摘要-llm-wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="OpenAI_Codex" target="Claude_Code">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="OpenAI_Codex" target="Ingest_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="OpenAI_Codex" target="LLM_Agent">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="OpenAI_Codex" target="LLM_Wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="OpenAI_Codex" target="Wiki_Schema">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="OpenAI_Codex" target="摘要-llm-wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Persistent_Knowledge_Base" target="Ingest_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Persistent_Knowledge_Base" target="LLM_Wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Persistent_Knowledge_Base" target="Query_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Persistent_Knowledge_Base" target="Raw_Source_Layer">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Persistent_Knowledge_Base" target="Retrieval_Augmented_Generation">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Persistent_Knowledge_Base" target="Wiki_Lint">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Persistent_Knowledge_Base" target="摘要-llm-wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Query_Workflow" target="Ingest_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Query_Workflow" target="LLM_Agent">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Query_Workflow" target="LLM_Wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Query_Workflow" target="Persistent_Knowledge_Base">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Query_Workflow" target="Retrieval_Augmented_Generation">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Query_Workflow" target="Wiki_Lint">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Query_Workflow" target="摘要-llm-wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Raw_Source_Layer" target="Ingest_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Raw_Source_Layer" target="LLM_Agent">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Raw_Source_Layer" target="LLM_Wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Raw_Source_Layer" target="Persistent_Knowledge_Base">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Raw_Source_Layer" target="Wiki_Schema">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Raw_Source_Layer" target="摘要-llm-wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Retrieval_Augmented_Generation" target="Ingest_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Retrieval_Augmented_Generation" target="LLM_Wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Retrieval_Augmented_Generation" target="Persistent_Knowledge_Base">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Retrieval_Augmented_Generation" target="Query_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Retrieval_Augmented_Generation" target="摘要-llm-wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Lint" target="Ingest_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Lint" target="LLM_Agent">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Lint" target="LLM_Wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Lint" target="Persistent_Knowledge_Base">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Lint" target="Query_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Lint" target="Wiki_Schema">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Lint" target="摘要-llm-wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Schema" target="Ingest_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Schema" target="LLM_Agent">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Schema" target="LLM_Wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Schema" target="Query_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Schema" target="Raw_Source_Layer">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Schema" target="Wiki_Lint">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="Wiki_Schema" target="摘要-llm-wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="摘要-llm-wiki" target="Andrej_Karpathy">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="摘要-llm-wiki" target="Claude_Code">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="摘要-llm-wiki" target="Ingest_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="摘要-llm-wiki" target="LLM_Agent">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="摘要-llm-wiki" target="LLM_Wiki">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="摘要-llm-wiki" target="Obsidian">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="摘要-llm-wiki" target="OpenAI_Codex">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="摘要-llm-wiki" target="Persistent_Knowledge_Base">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="摘要-llm-wiki" target="Query_Workflow">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="摘要-llm-wiki" target="Raw_Source_Layer">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="摘要-llm-wiki" target="Retrieval_Augmented_Generation">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="摘要-llm-wiki" target="Wiki_Lint">
+      <data key="target_exists">true</data>
+    </edge>
+    <edge source="摘要-llm-wiki" target="Wiki_Schema">
+      <data key="target_exists">true</data>
+    </edge>
+  </graph>
+</graphml>

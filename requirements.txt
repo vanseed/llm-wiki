@@ -1,0 +1,2 @@
+# This project currently has no third-party Python dependencies.
+# tools/wiki_tools.py uses only the Python standard library.
